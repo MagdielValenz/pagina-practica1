@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/magdielvalenz.github.io/pagina-practica1/static/css/main.edbb92b9.css",
+    "main.js": "/magdielvalenz.github.io/pagina-practica1/static/js/main.a243e57e.js",
+    "static/media/tesla.jpg": "/magdielvalenz.github.io/pagina-practica1/static/media/tesla.1d5615cbbb28713fbeed.jpg",
+    "static/media/riviantruck.jpg": "/magdielvalenz.github.io/pagina-practica1/static/media/riviantruck.f6f002fd8f859d60d86a.jpg",
+    "static/media/Mach-E.jpg": "/magdielvalenz.github.io/pagina-practica1/static/media/Mach-E.7afb389e69b70820b0be.jpg",
+    "index.html": "/magdielvalenz.github.io/pagina-practica1/index.html",
+    "main.edbb92b9.css.map": "/magdielvalenz.github.io/pagina-practica1/static/css/main.edbb92b9.css.map",
+    "main.a243e57e.js.map": "/magdielvalenz.github.io/pagina-practica1/static/js/main.a243e57e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edbb92b9.css",
+    "static/js/main.a243e57e.js"
+  ]
+}
