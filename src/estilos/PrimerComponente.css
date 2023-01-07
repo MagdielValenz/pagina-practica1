@@ -1,0 +1,144 @@
+.contenedor-informacion{
+    padding: 20px 0;
+    width: 100%;
+    background: white;
+    margin: 10px 10px 50px;
+    box-shadow: 4px 13px 8px 2px rgb(0 0 0 / 9%);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen-informacion
+{
+    z-index: 1;
+    margin-left: 0;
+    
+}
+.imagen-informacion img
+{   
+    width: 100%;
+    max-width: 450px;
+    
+}
+.contenedor-texto
+{
+    max-width: 720px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    font-family: Lato,sans-serif;
+
+    line-height: 1.5rem;
+    z-index: 10;
+}
+.contenedor-texto p
+{
+    width: auto;
+}
+.titulo
+{
+    font-size: 1.3rem;
+
+}
+.texto
+{
+    font-size: 1.1 rem;
+    text-align: justify;
+}
+/* img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(1.2);
+} */
+#imagenes{
+    transition: 0.5s;
+    object-fit: cover;
+}
+#imagenes:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width:1300px) {
+    .contenedor-informacion{
+        width: 1150px;
+    }
+    #imagenes{
+        width: 400px;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .contenedor-informacion{
+        width: 1100px;
+    }
+    #imagenes{
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width:1170px) {
+    .contenedor-informacion{
+        width: 1000px;
+    }
+    #imagenes{
+        width: 270px;
+    }
+}
+@media screen and (max-width:1015px) {
+    .contenedor-informacion{
+        width: 900px;
+        background-color: rgba(158, 40, 40, 0.4);
+        border-radius: 20px;
+    }
+    #imagenes{
+        width: 400px;
+        box-shadow: 2px 4px 6px rgb(15, 14, 14);
+    }
+    .contenedor-texto p
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1000px){
+    .contenedor-informacion{
+        width: 700px;
+    }
+}
+@media screen and (max-width:750px){
+    .contenedor-informacion{
+        width: 650px;
+    }
+}
+@media screen and (max-width:700px){
+    .contenedor-informacion{
+        width: 500px;
+    }
+}
+@media screen and (max-width:600px){
+    .contenedor-informacion{
+        width: 400px;
+    }
+    #imagenes{
+        width: 300px;
+    }
+}
+@media screen and (max-width:400px){
+    .contenedor-informacion{
+        width: 370px;
+    }
+    
+}
+@media screen and (max-width:380px){
+    .contenedor-informacion{
+        width: 340px;
+        margin-left: 10px;
+    }
+    #imagenes{
+        width: 260px;
+    }
+}

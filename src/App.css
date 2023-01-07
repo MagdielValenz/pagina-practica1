@@ -1,0 +1,134 @@
+:root{
+    --background:#b7c7ce;
+    --background2:#0d0e1a;
+    --background3:#141631;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    font-size: 18px;
+    /* background: linear-gradient(225deg, var(--background) 1%, var(--background3) 50%, var(--background2) 90%, var(--background2) 100%); */
+    background-color: none;
+}
+body{
+    min-height: 100vh;
+}
+
+h1
+{
+    max-width: 940px;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 40px 0 ;
+}
+.App
+{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* .App
+{
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+
+.contenedor-P{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Botones{
+    background: rgb(204, 204, 186);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* .carousel{
+    min-height: 800px;
+} */
+#carousel{
+    background-color:none;
+    width: 350px;
+    margin-left: 0;
+}
+#carousel img{
+    border-radius: 50px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+/* .carousel .carousel-item img{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+} */
+
+
+#b-ground{
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+}
+
+#Titulo-Principal{
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: #fafbff;
+    text-decoration:overline underline 10px red;
+
+}
+
+@media screen and (max-width:500px){
+    #carousel{
+        width: 440px;
+    }
+    #carousel-align img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:400px){
+    #carousel{
+        width: 440px;
+    }
+    #Titulo-Principal{
+        line-height: 60px;
+    }
+}
+@media screen and (max-width:380px){
+    #carousel{
+        width: 420px;
+    }
+    #carousel-align img{
+        width: 260px;
+    }
+    #Titulo-Principal{
+        line-height: 60px;
+        
+    }
+}
