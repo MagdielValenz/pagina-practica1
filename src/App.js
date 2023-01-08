@@ -33,7 +33,7 @@ function App() {
       <div className='container'>
         <div className='row'>
           <div className='col s12'>
-            <h1 className='center-align titulo' id='Titulo-Principal'>¿Cual es tu Auto Favorito?</h1>
+            <h1 className='center-align titulo' id='Titulo-Principal'>¿Cual es tu Auto Electrico Favorito?</h1>
             <div className='carousel center-align' id='carousel-align'>
               <div className='carousel-item' id='carousel'>
                 <img src={tesla} alt='Tesla' />
